@@ -1,0 +1,55 @@
+body {
+  color: rgb(60, 94, 160);
+  background-color: ;
+  text-align: center;
+}
+h1 {
+  color: rgb(60, 94, 160);
+  margin-bottom: 10px;
+  font: caption;
+  font-size: 50px;
+}
+input {
+  width: 300px;
+  height: 45px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  padding-left: 15px;
+  
+}
+.login{
+    width: 290px;
+    height: 46px;
+    border-radius: 6px;
+    background-color: rgb(33, 101, 226);
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+button{
+     width: 290px;
+    height: 46px;
+    border-radius: 6px;
+    background-color: rgb(33, 101, 226);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+.or{
+    font: caption;
+    font-size: larger;
+    color: black;
+}
+p{
+    font: caption; 
+    font-size:18px;
+    color: rgb(33, 101, 226);
+}
+div{
+    background-color: white;
+    width: ;
+    border-radius: 60px;
+}
