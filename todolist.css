@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: rgb(244, 134, 134);
+}
+h1{
+    font: caption;
+    font-size: 30px;
+}
+input{
+    width: 250px;
+    height: 32px;
+    border-radius: 13px;
+    border: none;
+    padding-left: 10px;
+
+}
+input::placeholder{
+    font-size: 10px;
+}
