@@ -27,7 +27,16 @@ input {
     color: white;
     margin-top: 10px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
+.login:hover{
+  color:white;
+  background-color: rgb(26, 74, 164);
+  width: 280px;
+  transition: 0.5s;
+}
+
 button{
      width: 290px;
     height: 46px;
@@ -37,6 +46,12 @@ button{
     margin-bottom: 20px;
     font-size: 18px;
     border: none;
+}
+button:hover{
+   color:white;
+  background-color: rgb(26, 74, 164);
+  width: 280px;
+  transition: 0.5s;
 }
 .or{
     font: caption;
