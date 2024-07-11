@@ -32,7 +32,7 @@
 let countEl = document.getElementById("count-el");
 let count = 0;
 function increaseButton() {
-  count = count + 1;
+  count += 1;
   countEl.innerText = count;
 }
 
@@ -43,5 +43,18 @@ function increaseButton() {
 // }
 
 function save() {
-  alert(count);
+  let saveEl = document.getElementById("save-el");
+  let countStr = count + " - ";
+  saveEl.innerText += countStr;
+  console.log(count);
 }
+
+// let username = "BigTee,"
+// let notification = " You have three new notifications!"
+// messageToUser = username + notification
+// console.log(messageToUser)
+
+// let name = "BigTee"
+// let greeting = "Hi, my name is "
+// let myGreeting = greeting + name
+// console.log(myGreeting)
