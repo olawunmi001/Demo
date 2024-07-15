@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+h2 {
+  color: orange;
+  font-family: Arial;
+  font-size: 35px;
+  padding-top: 5px;
+  margin-left: 30px;
+}
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 280px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  padding: 25px;
+  font-weight: bold;
+  font-size: small;
+}
+#search {
+  margin-left: -280px;
+  margin-top: 10px;
+  border: none;
+  height: 30px;
+  padding-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button {
+  height: 30px;
+  border: none;
+  padding: 5px;
+  background-color: orange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+h1 {
+  color: white;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-size: 40px;
+}
+#join {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 20px;
+  margin-left: 30px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+span {
+  color: orange;
+  font-size: 52px;
+}
+#Lorem {
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  margin-left: 30px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+#contain {
+  display: flex;
+}
+#black {
+  background-color: rgba(0, 0, 0, 0.45);
+  border: none;
+  border-radius: 10px;
+  width: 240px;
+  height: 320px;
+  margin-left: 290px;
+  margin-top: 80px;
+  text-align: center;
+}
+#here {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  color: orange;
+  width: 190px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#email {
+  background: none;
+  border: none;
+  border-bottom: 1px solid orange;
+  margin-top: 25px;
+  padding-bottom: 5px;
+  width: 190px;
+  color: white;
+}
+#email::placeholder {
+  color: white;
+  font-size: small;
+}
+#password {
+  background: none;
+  border: none;
+  border-bottom: 1px solid orange;
+  margin-top: 25px;
+  padding-bottom: 5px;
+  width: 190px;
+  color: white;
+}
+#password::placeholder {
+  color: white;
+  font-size: small;
+}
+#login {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  width: 190px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
+p{
+    color: white;
+    font-family: arial;
+    margin-top: 20px;
+    font-size: small;
+}
+#sign{
+    color: orange;
+
+}
