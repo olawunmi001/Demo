@@ -65,22 +65,22 @@ h1 {
   color: white;
   margin-left: 30px;
   margin-top: 80px;
-  font-size: 40px;
+  font-size: 60px;
 }
 #join {
   background-color: orange;
   color: white;
   border: none;
   border-radius: 6px;
-  width: 80px;
-  height: 20px;
+  width: 85px;
+  height: 23px;
   margin-left: 30px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
 }
 span {
   color: orange;
-  font-size: 52px;
+  font-size: 80px;
 }
 #Lorem {
   color: white;
@@ -97,9 +97,9 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
   border: none;
   border-radius: 10px;
-  width: 240px;
-  height: 320px;
-  margin-left: 290px;
+  width: 280px;
+  height: 380px;
+  margin-left: 450px;
   margin-top: 80px;
   text-align: center;
 }
@@ -108,8 +108,8 @@ span {
   border: none;
   border-radius: 5px;
   color: orange;
-  width: 190px;
-  margin-top: 20px;
+  width: 230px;
+  margin-top: 25px;
   font-weight: bold;
   font-size: 15px;
 }
@@ -117,9 +117,9 @@ span {
   background: none;
   border: none;
   border-bottom: 1px solid orange;
-  margin-top: 25px;
+  margin-top: 30px;
   padding-bottom: 5px;
-  width: 190px;
+  width: 230px;
   color: white;
 }
 #email::placeholder {
@@ -130,9 +130,9 @@ span {
   background: none;
   border: none;
   border-bottom: 1px solid orange;
-  margin-top: 25px;
+  margin-top: 30px;
   padding-bottom: 5px;
-  width: 190px;
+  width: 230px;
   color: white;
 }
 #password::placeholder {
@@ -144,25 +144,27 @@ span {
   border: none;
   border-radius: 5px;
   color: black;
-  width: 190px;
-  margin-top: 25px;
+  width: 230px;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 15px;
 }
 p{
     color: white;
     font-family: arial;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: small;
 }
 #sign{
     color: orange;
+    margin-top: 20px;
 
 }
 img{
     background-color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    margin: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    margin: 7px;
+    margin-top: 25px;
 }
